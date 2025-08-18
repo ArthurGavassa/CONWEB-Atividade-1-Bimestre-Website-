@@ -1,4 +1,5 @@
 *{
+    background-size: cover;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -33,4 +34,66 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #f39c12;
+}
+
+#home { 
+    background: url('codioful-formerly-gradienta-bKESVqfxass-unsplash.jpg') center/cover no-repeat;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home h1 {
+    font-size: 40px;
+}
+
+#home p {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+form { 
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+form label {
+    text-align: left;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #222;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #f39c12;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
