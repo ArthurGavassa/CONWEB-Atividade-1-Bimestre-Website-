@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -45,9 +45,16 @@
 
 <h1> Conteúdo Multimídia</h1>
 <hr>
-<video controls width="800" height="600"> 
+<video controls width="800" height="600" autoplay muted> 
     <source src="Dead Poets Society.mp4" type="video/mp4"> 
-    <track kind="subtitles" srclang="pt-br" src="Dead Poets Society.mp4.vtt"
+    <source src="Dead Poets Society.webm" type="video/webm">
+    <source src="Dead Poets Society.ogv" type="video/ogv">
+    <track kind="captions" srclang="en-us" src="Dead Poets Society.vtt" label="Closed Captions">
+    <track kind="subtitles" srclang="pt-br" src="Dead Poets Society.pt-br.vtt" label="Legendas PT-BR" default>
+    Seu navegador não suporta vídeos HTML5.
+    
+    
+
     label="legendas pt-br">
 </video>
 
@@ -70,7 +77,7 @@
 <footer>
     <p>Siga-nos nas redes sociais:</p>
     <ul>
-        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Facebook</a></li>   
         <li><a href="#">Instagram</a></li>
         <li><a href="#">LinkedIn</a></li>
     </ul>
